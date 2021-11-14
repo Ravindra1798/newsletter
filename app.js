@@ -77,6 +77,6 @@ app.post("/failure",function(req,res){
 //list id
 //59768e60ce
 
-app.listen(3000, function() {
+app.listen(Process.env.PORT || 3000, function() {
   console.log("started running on port 3000");
 });
